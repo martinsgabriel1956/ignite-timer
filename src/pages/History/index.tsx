@@ -1,4 +1,4 @@
-import { HistoryContainer, HistoryList } from './styles'
+import { HistoryContainer, HistoryList, Status } from './styles'
 
 export const History = () => {
   return (
@@ -19,37 +19,49 @@ export const History = () => {
               <td>Ouvir audiobook</td>
               <td>30 minutos</td>
               <td>Há cerca de 5 meses</td>
-              <td>Em andamento</td>
+              <td>
+                <Status statusColor="yellow">Em andamento</Status>
+              </td>
             </tr>
             <tr>
               <td>Ouvir audiobook</td>
               <td>30 minutos</td>
               <td>Há cerca de 5 meses</td>
-              <td>Em andamento</td>
+              <td>
+                <Status statusColor="green">Concluído</Status>
+              </td>
             </tr>
             <tr>
               <td>Ouvir audiobook</td>
               <td>30 minutos</td>
               <td>Há cerca de 5 meses</td>
-              <td>Em andamento</td>
+              <td>
+                <Status statusColor="red">Interrompido</Status>
+              </td>
             </tr>
             <tr>
               <td>Ouvir audiobook</td>
               <td>30 minutos</td>
               <td>Há cerca de 5 meses</td>
-              <td>Em andamento</td>
+              <td>
+                <Status statusColor="yellow">Em andamento</Status>
+              </td>
             </tr>
             <tr>
               <td>Ouvir audiobook</td>
               <td>30 minutos</td>
               <td>Há cerca de 5 meses</td>
-              <td>Em andamento</td>
+              <td>
+                <Status statusColor="yellow">Em andamento</Status>
+              </td>
             </tr>
             <tr>
               <td>Ouvir audiobook</td>
               <td>30 minutos</td>
               <td>Há cerca de 5 meses</td>
-              <td>Em andamento</td>
+              <td>
+                <Status statusColor="yellow">Em andamento</Status>
+              </td>
             </tr>
           </tbody>
         </table>
